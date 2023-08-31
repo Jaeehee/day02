@@ -54,3 +54,21 @@ stage에 한번에 모든 파일 올리기
   -am 
   git commit -am '메시지'
   
+  초기설정
+    git init을 깃 레포지토리로 만든다
+    git config --global user.name "사용자이름"
+    git config --global user.email "이메일주소"
+    으로 계정을 설정한다
+
+파일이 수정된다
+    -->git add .
+    -->git commit -m '메시지'
+
+git commit
+    을 실행하면 메시지 입력 에디터가 뜬다
+    이때 에디터에 글씨를 쓸 수 있도록
+    i  
+    를 클릭하여 INSERT 모드(끼워넣기)모드로 만들어서
+    커밋 메시지를 작성 한 후에
+    더 이상 쓸 메시지가 없다면
+    esc 를 클릭하여 끼워넣기 모드를 종료하고
